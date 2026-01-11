@@ -3,6 +3,7 @@ const {
     GatewayIntentBits,
     EmbedBuilder
 } = require("discord.js");
+require('dotenv').config();
 
 const client = new Client({
     intents: [
@@ -11,8 +12,6 @@ const client = new Client({
         GatewayIntentBits.MessageContent
     ]
 });
-
-const TOKEN = "MTQ1OTU0MTIyODAyMTQ4MTcwOA.GN3qJE.RkFgUD-RfaYX1CYiqHvbcAdeu1LZ0wPNN08iK8";
 
 // 🧩 CUSTOM EMOJI
 const CUSTOM_EMOJI = "👩🏻‍💻";
@@ -77,6 +76,7 @@ client.on("messageCreate", async message => {
     setTimeout(() => clearInterval(interval), 15000);
 });
 
-client.login(TOKEN);
+client.login(process.env.TOKEN);
+
 
 
