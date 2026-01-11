@@ -12,7 +12,7 @@ const client = new Client({
     ]
 });
 
-const TOKEN = "MTQ1OTU0MTIyODAyMTQ4MTcwOA.GUfzlD.Hk_GHBV7ZYa6GV5HXkQQRsh24OQ8dQ3USGY32o";
+const TOKEN = "MTQ1OTU0MTIyODAyMTQ4MTcwOA.GN3qJE.RkFgUD-RfaYX1CYiqHvbcAdeu1LZ0wPNN08iK8";
 
 // 🧩 CUSTOM EMOJI
 const CUSTOM_EMOJI = "👩🏻‍💻";
@@ -78,4 +78,5 @@ client.on("messageCreate", async message => {
 });
 
 client.login(TOKEN);
+
 
