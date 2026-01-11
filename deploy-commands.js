@@ -4,7 +4,7 @@ const {
     SlashCommandBuilder
 } = require("discord.js");
 
-const TOKEN = "MTQ1OTU0MTIyODAyMTQ4MTcwOA.G4ARbs.D_szc9sYOjB_0uxSOhEZlooRoZ2a5oMsM9-9vU";
+const TOKEN = "MTQ1OTU0MTIyODAyMTQ4MTcwOA.GUfzlD.Hk_GHBV7ZYa6GV5HXkQQRsh24OQ8dQ3USGY32o";
 const CLIENT_ID = "1459541228021481708";
 const GUILD_ID = "1242409797228298261";
 
@@ -40,3 +40,4 @@ const rest = new REST({ version: "10" }).setToken(TOKEN);
         console.error(error);
     }
 })();
+
